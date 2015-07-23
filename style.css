@@ -127,6 +127,7 @@
 .landing > #two > .container > .major {
   text-align: center;
   margin-bottom: 4em;
+  border-bottom: solid 1px transparent;
 }
 .landing > #two > .container > .major > h2 {
   font-size: 3em;
@@ -142,26 +143,12 @@
   line-height: 1.5em;
 }
 .landing > #two > .container > .profiles {
-  border-bottom: 1px solid rgba(144, 144, 144, 0.25);
   border-top: 1px solid rgba(144, 144, 144, 0.25);
   margin-bottom: 4em;
   padding-top: 4em;
 }
 .landing > #two > .container > .profiles > .row {
   margin: 0px 0 -1px -1.5em;
-  border-bottom: solid 1px transparent;
-}
-.landing > #two > .container > .profiles > .row:before {
-  content: "";
-  display: block;
-  clear: both;
-  height: 0;
-}
-.landing > #two > .container > .profiles > .row:after {
-  content: "";
-  display: block;
-  clear: both;
-  height: 0;
 }
 .landing > #two > .container > .profiles > .row > .profile {
   margin-bottom: 2em;
@@ -231,22 +218,6 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
-.landing > #footer > .container > .row {
-  margin: 0px 0 -1px -1.5em;
-  border-bottom: solid 1px transparent;
-}
-.landing > #footer > .container > .row:before {
-  content: "";
-  display: block;
-  clear: both;
-  height: 0;
-}
-.landing > #footer > .container > .row:after {
-  content: "";
-  display: block;
-  clear: both;
-  height: 0;
 }
 .landing > #footer > .container > .row > ul {
   margin: 0 0 2em 0;
